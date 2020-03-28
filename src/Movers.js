@@ -42,7 +42,6 @@ export default class Movers extends React.Component {
     }
 
     render() {
-        console.log(this.props)
         return (
             <React.Fragment>
                 <div style={{ minHeight: '75vh', width: '100vw', display: 'flex', alignItems: 'center', left: 0, position: 'relative', backgroundImage: 'url(' + MOVER + ')', backgroundPosition: 'center', backgroundSize: 'cover', flexDirection: "column", marginTop: '8vh', justifyContent: 'center' }}>
