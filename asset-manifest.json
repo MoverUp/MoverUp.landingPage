@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/static/js/main.212868ba.chunk.js",
+    "main.js.map": "/static/js/main.212868ba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5be55ab0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5be55ab0.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.58a0191d.chunk.js": "/static/js/2.58a0191d.chunk.js",
+    "static/js/2.58a0191d.chunk.js.map": "/static/js/2.58a0191d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b0ae97747e5541b739107f1edfc9d6ad.js": "/precache-manifest.b0ae97747e5541b739107f1edfc9d6ad.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/js/2.58a0191d.chunk.js.LICENSE.txt": "/static/js/2.58a0191d.chunk.js.LICENSE.txt",
+    "static/media/add_slot.png": "/static/media/add_slot.7100889b.png",
+    "static/media/android_logo.png": "/static/media/android_logo.b3bc727f.png",
+    "static/media/apple_logo.png": "/static/media/apple_logo.7b926053.png",
+    "static/media/business.png": "/static/media/business.14d2066a.png",
+    "static/media/choose_workers1.png": "/static/media/choose_workers1.2efdcb3d.png",
+    "static/media/choose_workers2.png": "/static/media/choose_workers2.02561e24.png",
+    "static/media/confirm_job.png": "/static/media/confirm_job.0519171c.png",
+    "static/media/create_job1.png": "/static/media/create_job1.94c668bf.png",
+    "static/media/create_job2.png": "/static/media/create_job2.6b2f9399.png",
+    "static/media/empty_calendar.png": "/static/media/empty_calendar.799e3c57.png",
+    "static/media/list_with_requests.png": "/static/media/list_with_requests.27a06317.png",
+    "static/media/movers.png": "/static/media/movers.d9c39125.png",
+    "static/media/rate_helpers.png": "/static/media/rate_helpers.f130f48a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5be55ab0.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.58a0191d.chunk.js",
+    "static/js/main.212868ba.chunk.js"
+  ]
+}
