@@ -7,6 +7,8 @@ import Contacts from "./Contacts"
 import Business from "./Business"
 import Policies from "./Policies"
 import Terms from "./Terms"
+import Confirm from "./Confirm"
+import Error from "./Error"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Dropdown } from 'react-bootstrap'
 import { HashRouter as Router, Link, Switch, Route } from 'react-router-dom'
@@ -94,6 +96,12 @@ class App extends React.Component {
 				<Route path="/terms">
 					<Terms />
 				</Route>
+				<Route path="/confirm">
+					<Confirm />
+				</Route>
+				<Route>
+					<Error />
+				</Route>
 			</Switch>
 		)
 	}
@@ -171,6 +179,8 @@ class App extends React.Component {
 			<Router>
 				<div style={{ position: 'absolute', top: 0, right: 0, left: 0 }}>
 					<div style={{ position: 'relative' }}>
+					{
+						window.location.href.indexOf("confirm") >= 0 ? null :
 						<AppBar position="fixed" color="inherit" style={{ height: '8vh' }}>
 							<Toolbar>
 								<div style={{ height: '8vh', width: '100vw', top: 0, left: 0, right: 0, position: 'absolute', display: 'flex', flexDirection: 'row', alignItems: 'center', margin: 5 }}>
@@ -245,9 +255,10 @@ class App extends React.Component {
 								</div>
 							</Toolbar>
 						</AppBar>
+					}
 						{this.outputBottom()}
-						{this.outputJoinUs()}
-						{this.outputFooter()}
+						{window.location.href.indexOf("confirm") >= 0 ? null : this.outputJoinUs()}
+						{window.location.href.indexOf("confirm") >= 0 ? null : this.outputFooter()}
 					</div>
 				</div>
 			</Router>
