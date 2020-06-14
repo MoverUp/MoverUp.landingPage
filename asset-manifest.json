@@ -1,35 +1,35 @@
 {
   "files": {
-    "main.js": "/static/js/main.32cdc618.chunk.js",
-    "main.js.map": "/static/js/main.32cdc618.chunk.js.map",
+    "main.js": "/static/js/main.49179bad.chunk.js",
+    "main.js.map": "/static/js/main.49179bad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5be55ab0.js",
     "runtime-main.js.map": "/static/js/runtime-main.5be55ab0.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.dcdff644.chunk.js": "/static/js/2.dcdff644.chunk.js",
-    "static/js/2.dcdff644.chunk.js.map": "/static/js/2.dcdff644.chunk.js.map",
+    "static/js/2.148501b8.chunk.js": "/static/js/2.148501b8.chunk.js",
+    "static/js/2.148501b8.chunk.js.map": "/static/js/2.148501b8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7ec27ad617cd614427d52968003276a9.js": "/precache-manifest.7ec27ad617cd614427d52968003276a9.js",
+    "precache-manifest.0e3e758cb6de02ffa84ed529699af5f3.js": "/precache-manifest.0e3e758cb6de02ffa84ed529699af5f3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/js/2.dcdff644.chunk.js.LICENSE.txt": "/static/js/2.dcdff644.chunk.js.LICENSE.txt",
-    "static/media/add_slot.png": "/static/media/add_slot.7100889b.png",
+    "static/js/2.148501b8.chunk.js.LICENSE.txt": "/static/js/2.148501b8.chunk.js.LICENSE.txt",
+    "static/media/add_slot.png": "/static/media/add_slot.5fadc94f.png",
     "static/media/android_logo.png": "/static/media/android_logo.b3bc727f.png",
     "static/media/apple_logo.png": "/static/media/apple_logo.7b926053.png",
     "static/media/business.png": "/static/media/business.14d2066a.png",
-    "static/media/choose_workers1.png": "/static/media/choose_workers1.2efdcb3d.png",
-    "static/media/choose_workers2.png": "/static/media/choose_workers2.02561e24.png",
-    "static/media/confirm_job.png": "/static/media/confirm_job.0519171c.png",
-    "static/media/create_job1.png": "/static/media/create_job1.94c668bf.png",
-    "static/media/create_job2.png": "/static/media/create_job2.6b2f9399.png",
-    "static/media/empty_calendar.png": "/static/media/empty_calendar.799e3c57.png",
-    "static/media/list_with_requests.png": "/static/media/list_with_requests.27a06317.png",
+    "static/media/choose_workers1.png": "/static/media/choose_workers1.2bd71047.png",
+    "static/media/choose_workers2.png": "/static/media/choose_workers2.aa1699a6.png",
+    "static/media/confirm_job.png": "/static/media/confirm_job.eee7276c.png",
+    "static/media/create_job1.png": "/static/media/create_job1.991ab6df.png",
+    "static/media/create_job2.png": "/static/media/create_job2.3ece065f.png",
+    "static/media/empty_calendar.png": "/static/media/empty_calendar.2d2fcdec.png",
+    "static/media/list_with_requests.png": "/static/media/list_with_requests.e5c57ec0.png",
     "static/media/movers.png": "/static/media/movers.d9c39125.png",
-    "static/media/rate_helpers.png": "/static/media/rate_helpers.f130f48a.png"
+    "static/media/rate_helpers.png": "/static/media/rate_helpers.f519807f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5be55ab0.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.dcdff644.chunk.js",
-    "static/js/main.32cdc618.chunk.js"
+    "static/js/2.148501b8.chunk.js",
+    "static/js/main.49179bad.chunk.js"
   ]
 }
