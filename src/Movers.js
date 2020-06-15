@@ -1,5 +1,6 @@
 import React from 'react'
 import MOVER from './Images/movers.png'
+import YouTube from 'react-youtube';
 import Stepper from '@material-ui/core/Stepper'
 import Step from '@material-ui/core/Step'
 import StepLabel from '@material-ui/core/StepLabel'
@@ -41,7 +42,19 @@ export default class Movers extends React.Component {
         }
     }
 
+    _onReady(event) {
+        // access to player in all event handlers via event.target
+        event.target.pauseVideo();
+    }
+
     render() {
+        const opts = {
+            height: this.state.type === "column" ? '185' : '390',
+            width: this.state.type === "column" ? '300' : '640',
+            playerVars: {
+                autoplay: 0,
+            },
+        };
         return (
             <React.Fragment>
                 <div style={{ minHeight: '75vh', width: '100vw', display: 'flex', alignItems: 'center', left: 0, position: 'relative', backgroundImage: 'url(' + MOVER + ')', backgroundPosition: 'center', backgroundSize: 'cover', flexDirection: "column", marginTop: '8vh', justifyContent: 'center' }}>
@@ -135,6 +148,7 @@ export default class Movers extends React.Component {
                                     3 simple steps to start earning money
                                 </Typography>
                             </div>
+                            <YouTube videoId="IMKIyu0S710" opts={opts} />
                             <div style={{ height: 5, width: 80, backgroundColor: 'orange', marginBottom: 50, marginTop: 10 }} />
                             <Step key={0} active={true} style={{ display: 'flex', alignItems: 'flex-start', flexDirection: 'column', margin: 20, width: this.state.type === "column" ? '92vw' : 560 }}>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex' }}>
