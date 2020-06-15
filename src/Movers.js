@@ -54,7 +54,7 @@ export default class Movers extends React.Component {
                         </div>
                         <div style={{ flex: 3 }}>
                             <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', justifyContent: 'space-around' }}>
-                                <h3 style={{ textAlign: 'center', margin: 7, marginBottom: 0, fontSize: 30, fontWeight: '600' }}>App for movers</h3>
+                                <h3 style={{ textAlign: 'center', margin: 7, marginBottom: 0, fontSize: 30, fontWeight: '600' }}>App for <h3 style={{fontSize: 30, fontWeight: '600', color: 'orange'}}>mover</h3></h3>
                                 <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', minHeight: '15vh', justifyContent: 'space-around' }}>
                                     <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://play.google.com/store/apps/details?id=com.moverup.formovers")}>
                                         <img alt="MoverUp" src={require('./Images/apple_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
