@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.b85282f4.chunk.js",
-    "main.js.map": "/static/js/main.b85282f4.chunk.js.map",
+    "main.js": "/static/js/main.90985a82.chunk.js",
+    "main.js.map": "/static/js/main.90985a82.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5fd95cb7.js",
     "runtime-main.js.map": "/static/js/runtime-main.5fd95cb7.js.map",
     "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.33b29e8e.chunk.js": "/static/js/2.33b29e8e.chunk.js",
-    "static/js/2.33b29e8e.chunk.js.map": "/static/js/2.33b29e8e.chunk.js.map",
+    "static/js/2.7f04d7b4.chunk.js": "/static/js/2.7f04d7b4.chunk.js",
+    "static/js/2.7f04d7b4.chunk.js.map": "/static/js/2.7f04d7b4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0d32366bbeec8e85242aeb39b6828cab.js": "/precache-manifest.0d32366bbeec8e85242aeb39b6828cab.js",
+    "precache-manifest.1f3b4e315f0f6ba0b6ed7076eaa9fe60.js": "/precache-manifest.1f3b4e315f0f6ba0b6ed7076eaa9fe60.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/js/2.33b29e8e.chunk.js.LICENSE.txt": "/static/js/2.33b29e8e.chunk.js.LICENSE.txt",
+    "static/js/2.7f04d7b4.chunk.js.LICENSE.txt": "/static/js/2.7f04d7b4.chunk.js.LICENSE.txt",
     "static/media/add_slot.png": "/static/media/add_slot.5fadc94f.png",
     "static/media/android_logo.png": "/static/media/android_logo.b3bc727f.png",
     "static/media/apple_logo.png": "/static/media/apple_logo.7b926053.png",
@@ -22,6 +22,7 @@
     "static/media/create_job1.png": "/static/media/create_job1.991ab6df.png",
     "static/media/create_job2.png": "/static/media/create_job2.3ece065f.png",
     "static/media/empty_calendar.png": "/static/media/empty_calendar.2d2fcdec.png",
+    "static/media/leave_rating.png": "/static/media/leave_rating.60a7df24.png",
     "static/media/list_with_requests.png": "/static/media/list_with_requests.e5c57ec0.png",
     "static/media/movers.png": "/static/media/movers.d9c39125.png",
     "static/media/rate_helpers.png": "/static/media/rate_helpers.f519807f.png"
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.5fd95cb7.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.33b29e8e.chunk.js",
-    "static/js/main.b85282f4.chunk.js"
+    "static/js/2.7f04d7b4.chunk.js",
+    "static/js/main.90985a82.chunk.js"
   ]
 }
