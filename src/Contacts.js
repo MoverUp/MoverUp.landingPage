@@ -1,6 +1,11 @@
 import React from 'react'
 import { ButtonBase } from '@material-ui/core'
 import TextField from '@material-ui/core/TextField'
+import MenuItem from '@material-ui/core/MenuItem';
+import FormControl from '@material-ui/core/FormControl';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import Select from '@material-ui/core/Select';
+import InputLabel from '@material-ui/core/InputLabel';
 import Amplify, { API } from 'aws-amplify'
 
 Amplify.configure({
@@ -18,6 +23,7 @@ export default class Contacts extends React.Component {
 
     state = {
         full_name: '',
+        app: "",
         email: '',
         message: '',
         success_message: '',
@@ -38,7 +44,8 @@ export default class Contacts extends React.Component {
                 body: {
                     fullName: this.state.full_name,
                     mess: this.state.message,
-                    email: this.state.email
+                    email: this.state.email,
+                    app: this.state.app
                 }
             }
 
@@ -70,7 +77,8 @@ export default class Contacts extends React.Component {
                 error_types: {
                     email: !emailValid,
                     full_name: (this.state.full_name.length === 0),
-                    message: (this.state.message.length === 0)
+                    message: (this.state.message.length === 0),
+                    switch: (this.state.app.length === 0)
                 }
             })
         }
@@ -139,6 +147,20 @@ export default class Contacts extends React.Component {
                     onChange={this.onChangeMessage}
                     style={{width: '75vw', fontSize: '1vw', marginTop: '2.5vh', marginBottom: '2.5vh'}}
                     />
+                    <FormControl variant="outlined" error={this.state.error && this.state.error_types.switch}>
+                        <InputLabel id="demo-simple-select-label">App used</InputLabel>
+                        <Select
+                        labelId="demo-simple-select-label"
+                        id="demo-simple-select-error"
+                        value={this.state.app}
+                        onChange={(e) => this.setState({ ...this.state, app: e.target.value })}
+                        label={this.state.app}
+                        >
+                            <MenuItem value={"MoverUp"}>MoverUp</MenuItem>
+                            <MenuItem value={"MoverUp - For business"}>MoverUp - For business</MenuItem>
+                        </Select>
+                        {this.state.error && this.state.error_types.switch ? <FormHelperText>This field is required!</FormHelperText> : null}
+                    </FormControl>
                     <b style={{fontWeight: 'normal'}}>{this.state.success_message}</b>
                     <ButtonBase
                     style={{width: '75vw', height: '5vh', backgroundColor: '#F9F9F9', marginTop: '2.5vh', marginBottom: '2.5vh', outline: 'none', fontWeight: '600'}}
