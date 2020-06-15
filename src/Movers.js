@@ -188,7 +188,7 @@ export default class Movers extends React.Component {
                                     Tell us about your experience working with the company, so we can find an even better match next time you use us.
                                 </Typography>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', padding: 10, alignSelf: 'center' }}>
-                                    <img alt="MoverUp" src={require('./Images/confirm_job.png')} style={{ width: this.state.type === "column" ? 190 : 290, height: this.state.type === "column" ? 320 : 500, margin: 7 }} />
+                                    <img alt="MoverUp" src={require('./Images/leave_rating.png')} style={{ width: this.state.type === "column" ? 190 : 290, height: this.state.type === "column" ? 320 : 500, margin: 7 }} />
                                 </div>
                             </Step>
                         </Stepper>
