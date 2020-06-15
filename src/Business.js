@@ -188,8 +188,8 @@ export default class Business extends React.Component {
                                     Choose the type of jobs and how many workers you need, as well as any extra costs (bulky items, long carry, stairs, ...)
                                 </Typography>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', padding: 10, alignSelf: 'center' }}>
-                                    <img alt="MoverUp" src={require('./Images/create_job1.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
-                                    <img alt="MoverUp" src={require('./Images/create_job2.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
+                                    <img alt="MoverUp" src={require('./Images/create_job1.png')} style={{ width: this.state.type === "column" ? 190 : 280, height: this.state.type === "column" ? 320 : 480, margin: 4 }} />
+                                    <img alt="MoverUp" src={require('./Images/create_job2.png')} style={{ width: this.state.type === "column" ? 190 : 280, height: this.state.type === "column" ? 320 : 480, margin: 4 }} />
                                 </div>
                             </Step>
                             <Step key={1} active={true} style={{ display: 'flex', alignItems: 'flex-start', flexDirection: 'column', margin: 20, width: this.state.type === "column" ? '92vw' : 560 }}>
@@ -203,8 +203,8 @@ export default class Business extends React.Component {
                                     You will have access to the workers contact informations as soon as they accept the job request.
                                 </Typography>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', padding: 10, alignSelf: 'center' }}>
-                                    <img alt="MoverUp" src={require('./Images/choose_workers1.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
-                                    <img alt="MoverUp" src={require('./Images/choose_workers2.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
+                                    <img alt="MoverUp" src={require('./Images/choose_workers1.png')} style={{ width: this.state.type === "column" ? 190 : 280, height: this.state.type === "column" ? 320 : 480, margin: 4 }} />
+                                    <img alt="MoverUp" src={require('./Images/choose_workers2.png')} style={{ width: this.state.type === "column" ? 190 : 280, height: this.state.type === "column" ? 320 : 480, margin: 4 }} />
                                 </div>
                             </Step>
                             <Step key={2} active={true} style={{ display: 'flex', alignItems: 'flex-start', flexDirection: 'column', margin: 20, width: this.state.type === "column" ? '92vw' : 560 }}>
@@ -216,7 +216,7 @@ export default class Business extends React.Component {
                                 <Typography style={{ textAlign: 'flex-start', marginTop: 10, color: 'gray', fontWeight: '300' }}>
                                     Tell us about your experience working with our helpers, so we can find an even better match next time you use us.
                                 </Typography>
-                                <img alt="MoverUp" src={require('./Images/rate_helpers.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7, alignSelf: 'center' }} />
+                                <img alt="MoverUp" src={require('./Images/rate_helpers.png')} style={{ width: this.state.type === "column" ? 190 : 280, height: this.state.type === "column" ? 320 : 480, margin: 4, alignSelf: 'center' }} />
                             </Step>
                         </Stepper>
                     </div>

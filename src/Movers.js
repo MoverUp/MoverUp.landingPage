@@ -59,7 +59,7 @@ export default class Movers extends React.Component {
                                     <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://play.google.com/store/apps/details?id=com.moverup.formovers")}>
                                         <img alt="MoverUp" src={require('./Images/apple_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
                                     </ButtonBase>
-                                    <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://testflight.apple.com/join/lue7aG4i")}>
+                                    <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1497440250")}>
                                         <img alt="MoverUp" src={require('./Images/android_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
                                     </ButtonBase>
                                 </div>
@@ -146,8 +146,8 @@ export default class Movers extends React.Component {
                                     Decide when and where you want to work, and we will match you with companies that need you.
                                 </Typography>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', padding: 10, alignSelf: 'center' }}>
-                                    <img alt="MoverUp" src={require('./Images/add_slot.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
-                                    <img alt="MoverUp" src={require('./Images/empty_calendar.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
+                                    <img alt="MoverUp" src={require('./Images/add_slot.png')} style={{ width: this.state.type === "column" ? 185 : 280, height: this.state.type === "column" ? 320 : 500, margin: 7 }} />
+                                    <img alt="MoverUp" src={require('./Images/empty_calendar.png')} style={{ width: this.state.type === "column" ? 185 : 280, height: this.state.type === "column" ? 320 : 500, margin: 7 }} />
                                 </div>
                             </Step>
                             <Step key={1} active={true} style={{ display: 'flex', alignItems: 'flex-start', flexDirection: 'column', margin: 20, width: this.state.type === "column" ? '92vw' : 560 }}>
@@ -160,8 +160,8 @@ export default class Movers extends React.Component {
                                     We will match you with several companies, and you can choose the job that fits you best.
                                 </Typography>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', padding: 10, alignSelf: 'center' }}>
-                                    <img alt="MoverUp" src={require('./Images/list_with_requests.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
-                                    <img alt="MoverUp" src={require('./Images/confirm_job.png')} style={{ width: this.state.type === "column" ? 180 : 270, height: this.state.type === "column" ? 360 : 540, margin: 7 }} />
+                                    <img alt="MoverUp" src={require('./Images/list_with_requests.png')} style={{ width: this.state.type === "column" ? 185 : 280, height: this.state.type === "column" ? 320 : 500, margin: 4 }} />
+                                    <img alt="MoverUp" src={require('./Images/confirm_job.png')} style={{ width: this.state.type === "column" ? 190 : 290, height: this.state.type === "column" ? 320 : 500, margin: 4 }} />
                                 </div>
                             </Step>
                             <Step key={2} active={true} style={{ display: 'flex', alignItems: 'flex-start', flexDirection: 'column', margin: 20, width: this.state.type === "column" ? '92vw' : 560 }}>
@@ -173,6 +173,9 @@ export default class Movers extends React.Component {
                                 <Typography style={{ textAlign: 'flex-start', marginTop: 10, color: 'gray', fontWeight: '300' }}>
                                     Tell us about your experience working with the company, so we can find an even better match next time you use us.
                                 </Typography>
+                                <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex', padding: 10, alignSelf: 'center' }}>
+                                    <img alt="MoverUp" src={require('./Images/confirm_job.png')} style={{ width: this.state.type === "column" ? 190 : 290, height: this.state.type === "column" ? 320 : 500, margin: 7 }} />
+                                </div>
                             </Step>
                         </Stepper>
                     </div>
