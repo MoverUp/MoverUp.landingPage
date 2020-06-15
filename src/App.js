@@ -166,7 +166,7 @@ class App extends React.Component {
 					<ButtonBase style={{ outline: 'none', margin: 10 }} onClick={() => this.state.text === "For movers" ? window.open("https://play.google.com/store/apps/details?id=com.moverup.formovers") : window.open("https://play.google.com/store/apps/details?id=com.moverup.company")}>
 						<img alt="MoverUp" src={require('./Images/apple_logo.png')} style={{ width: 180, height: 55 }} />
 					</ButtonBase>
-					<ButtonBase style={{ outline: 'none', margin: 10 }} onClick={() => this.state.text === "For movers" ? window.open("https://testflight.apple.com/join/lue7aG4i") : window.open("https://testflight.apple.com/join/VzfTqKpZ")}>
+					<ButtonBase style={{ outline: 'none', margin: 10 }} onClick={() => this.state.text === "For movers" ? window.open("https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1497440250") : window.open("https://testflight.apple.com/join/VzfTqKpZ")}>
 						<img alt="MoverUp" src={require('./Images/android_logo.png')} style={{ width: 180, height: 55 }} />
 					</ButtonBase>
 				</div>
