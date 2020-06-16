@@ -135,6 +135,12 @@ class App extends React.Component {
 							<Link style={{ textDecoration: 'none', color: '#5b638f', marginTop: 2.5, marginBottom: 2.5 }} onClick={() => window.open("https://www.42.us.org/introducing-the-new-additions-to-42-accelerate/")}>
 								The team
 							</Link>
+							<Link style={{ textDecoration: 'none', color: '#5b638f', marginTop: 2.5, marginBottom: 2.5 }} onClick={() => window.open("https://www.facebook.com/MoverUp-102639181469230/?view_public_for=102639181469230")}>
+								Facebook
+							</Link>
+							<Link style={{ textDecoration: 'none', color: '#5b638f', marginTop: 2.5, marginBottom: 2.5 }} onClick={() => window.open("https://instagram.com/_moverup_?igshid=1v29jwpdr3li2")}>
+								Instagram
+							</Link>
 						</div>
 					</div>
 				</div>
