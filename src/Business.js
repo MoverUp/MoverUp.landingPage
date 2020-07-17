@@ -65,7 +65,7 @@ export default class Business extends React.Component {
                                                 <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://play.google.com/store/apps/details?id=com.moverup.company")}>
                                                     <img alt="MoverUp" src={require('./Images/apple_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
                                                 </ButtonBase>
-                                                <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://testflight.apple.com/join/VzfTqKpZ")}>
+                                                <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://apps.apple.com/us/app/moverup-for-business/id1489245182")}>
                                                     <img alt="MoverUp" src={require('./Images/android_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
                                                 </ButtonBase>
                                             </div>
@@ -97,7 +97,7 @@ export default class Business extends React.Component {
                                                 <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://play.google.com/store/apps/details?id=com.moverup.company")}>
                                                     <img alt="MoverUp" src={require('./Images/apple_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
                                                 </ButtonBase>
-                                                <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://testflight.apple.com/join/VzfTqKpZ")}>
+                                                <ButtonBase style={{ outline: 'none', margin: 7 }} onClick={() => window.open("https://apps.apple.com/us/app/moverup-for-business/id1489245182")}>
                                                     <img alt="MoverUp" src={require('./Images/android_logo.png')} style={{ width: this.state.logo_width, height: this.state.logo_height }} />
                                                 </ButtonBase>
                                             </div>

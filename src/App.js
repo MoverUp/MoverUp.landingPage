@@ -109,10 +109,20 @@ class App extends React.Component {
 	outputFooter = () => {
 		return (
 			<div style={{ display: 'flex', flex: 7, alignItems: 'center', flexDirection: 'column', minHeight: '20vh', width: '100vw', justifyContent: 'center', backgroundColor: 'rgba(255,255,255,1)' }}>
-				<div style={{ display: 'flex', flex: 6, flexDirection: 'row', minHeight: '15vh', width: this.state.isSmall ? '90vw' : '75vw', alignItems: 'center', maxWidth: 960, marginTop: 40 }}>
+				<div style={{ display: 'flex', flexDirection: 'row', width: this.state.isSmall ? '90vw' : '75vw', alignItems: 'center', maxWidth: 960, marginTop: 40 }}>
+					<div style={{display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+						<b style={{ fontSize: 20, marginBottom: 10 }}>MoverUp</b>
+					</div>
+					<div style={{display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+						<b style={{ fontSize: 20, marginBottom: 10 }}>Questions?</b>
+					</div>
+					<div style={{display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+						<b style={{ fontSize: 20, marginBottom: 10 }}>About us</b>
+					</div>
+				</div>
+				<div style={{ display: 'flex', flex: 6, flexDirection: 'row', minHeight: '15vh', width: this.state.isSmall ? '90vw' : '75vw', alignItems: 'center', maxWidth: 960 }}>
 					<div style={{ display: 'flex', flex: 1, minHeight: '15vh', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start' }}>
 						<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-							<b style={{ fontSize: 20, marginBottom: 10 }}>MoverUp</b>
 							<Link to="/movers" onClick={() => this.setState({ text: "For movers", contacts: false })} style={{ textDecoration: 'none', color: '#5b638f', marginTop: 2.5, marginBottom: 2.5 }}>
 								For movers
 							</Link>
@@ -123,7 +133,6 @@ class App extends React.Component {
 					</div>
 					<div style={{ display: 'flex', flex: 1, minHeight: '15vh', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start' }}>
 						<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-							<b style={{ fontSize: 20, marginBottom: 10 }}>Questions?</b>
 							<Link to="/contact" style={{ textDecoration: 'none', color: '#5b638f', marginTop: 2.5, marginBottom: 2.5 }}>
 								Contact us
 							</Link>
@@ -131,7 +140,6 @@ class App extends React.Component {
 					</div>
 					<div style={{ display: 'flex', flex: 1, minHeight: '15vh', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start' }}>
 						<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-							<b style={{ fontSize: 20, marginBottom: 10 }}>About us</b>
 							<Link style={{ textDecoration: 'none', color: '#5b638f', marginTop: 2.5, marginBottom: 2.5 }} onClick={() => window.open("https://www.42.us.org/introducing-the-new-additions-to-42-accelerate/")}>
 								The team
 							</Link>
@@ -167,12 +175,11 @@ class App extends React.Component {
 	outputJoinUs = () => {
 		return (
 			<div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', minHeight: '20vh', width: '100vw', justifyContent: 'center', backgroundColor: '#fde992' }}>
-				<Typography style={{ fontWeight: '600' }}>Apply to be a tester</Typography>
 				<div style={{ display: 'flex', alignItems: 'center', flexDirection: this.state.isSmall ? "column" : 'row', justifyContent: 'space-around' }}>
 					<ButtonBase style={{ outline: 'none', margin: 10 }} onClick={() => this.state.text === "For movers" ? window.open("https://play.google.com/store/apps/details?id=com.moverup.formovers") : window.open("https://play.google.com/store/apps/details?id=com.moverup.company")}>
 						<img alt="MoverUp" src={require('./Images/apple_logo.png')} style={{ width: 180, height: 55 }} />
 					</ButtonBase>
-					<ButtonBase style={{ outline: 'none', margin: 10 }} onClick={() => this.state.text === "For movers" ? window.open("https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1497440250") : window.open("https://testflight.apple.com/join/VzfTqKpZ")}>
+					<ButtonBase style={{ outline: 'none', margin: 10 }} onClick={() => this.state.text === "For movers" ? window.open("https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1497440250") : window.open("https://apps.apple.com/us/app/moverup-for-business/id1489245182")}>
 						<img alt="MoverUp" src={require('./Images/android_logo.png')} style={{ width: 180, height: 55 }} />
 					</ButtonBase>
 				</div>
