@@ -1,6 +1,7 @@
 import React from 'react'
 import BUSINESS from './Images/business.png'
 import Stepper from '@material-ui/core/Stepper'
+import YouTube from 'react-youtube';
 import Step from '@material-ui/core/Step'
 import StepLabel from '@material-ui/core/StepLabel'
 import Typography from '@material-ui/core/Typography';
@@ -42,6 +43,13 @@ export default class Business extends React.Component {
     }
 
     render() {
+        const opts = {
+            height: this.state.type === "column" ? '185' : '390',
+            width: this.state.type === "column" ? '300' : '640',
+            playerVars: {
+                autoplay: 0,
+            },
+        };
         if (this.props.state.text !== "For business")
             this.props.changePage("For business")
         return (
@@ -177,6 +185,7 @@ export default class Business extends React.Component {
                                     3 simple steps to get things done
                                 </Typography>
                             </div>
+                            <YouTube videoId="mot-PWibZxo" opts={opts} />
                             <div style={{ height: 5, width: 80, backgroundColor: 'orange', marginBottom: 50, marginTop: 10 }} />
                             <Step key={0} active={true} style={{ display: 'flex', alignItems: 'flex-start', flexDirection: 'column', margin: 20, width: this.state.type === "column" ? '92vw' : 560 }}>
                                 <div style={{ flexDirection: 'row', alignItems: 'center', display: 'flex' }}>
